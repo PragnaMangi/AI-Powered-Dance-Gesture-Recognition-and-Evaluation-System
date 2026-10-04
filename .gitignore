@@ -1,0 +1,56 @@
+.env
+__pycache__/
+*.pyc
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# Python virtual environment
+.venv/
+.venv310/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Node / React
+node_modules/
+frontend/node_modules/
+
+# Vite build
+frontend/dist/
+frontend/.vite/
+
+# Python / test cache
+.pytest_cache/
+.mypy_cache/
+.coverage
+
+# IDE / editor
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Large ML dataset
+dataset/
+frontend/public/mudras/
