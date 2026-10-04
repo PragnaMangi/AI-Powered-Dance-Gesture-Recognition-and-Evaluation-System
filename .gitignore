@@ -54,3 +54,5 @@ desktop.ini
 # Large ML dataset
 dataset/
 frontend/public/mudras/
+
+trained_model/
